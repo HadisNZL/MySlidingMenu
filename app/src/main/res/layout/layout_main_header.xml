@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_header"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:background="#A572AA">
+
+    <!-- 返回按钮 -->
+
+    <Button
+        android:id="@+id/ivTitleBtnLeft"
+        style="@style/title_base_button"
+        android:background="@mipmap/ic_top_bar_category"
+        />
+
+    <TextView
+        android:id="@+id/ivTitleName"
+        style="@style/main_head_title"
+        android:layout_centerInParent="true"
+        android:text="Hadis"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/ivTitleBtnRigh"
+        style="@style/title_base_button"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/list_selector_background"
+        android:text="右边"
+        />
+</RelativeLayout>

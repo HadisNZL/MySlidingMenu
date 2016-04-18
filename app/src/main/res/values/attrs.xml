@@ -1,0 +1,55 @@
+<resources>  
+    <attr name="typeface">  
+        <enum name="normal" value="0"/>  
+        <enum name="sans" value="1"/>  
+        <enum name="serif" value="2"/>  
+        <enum name="monospace" value="3"/>  
+    </attr>  
+  
+    <declare-styleable name="CYTextView">     
+        <attr name="textwidth" format="dimension"/>         
+        <attr name="textSize" format="dimension"/>  
+        <attr name="maxLines" format="integer"/>  
+        <attr name="textColor" format="reference|color"/>  
+        <attr name="lineSpacingExtra" format="dimension"/>  
+        <attr name="typeface" />  
+        </declare-styleable>  
+        
+    <declare-styleable name="com.baidu.mobads.AdView">
+		<attr name="adSize" format="integer" />
+		<attr name="adId" format="string" />
+	</declare-styleable> 
+	
+    <!-- banbentiaozheng -->
+     <!-- SlidingMenu -->
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+    <!-- -->
+      
+
+
+
+</resources>  
